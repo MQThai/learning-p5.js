@@ -9,8 +9,8 @@
 
    ```<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>```
 
-   to the head of ```index.html```.  Don't forget to link ```sketch.js``` in the head also.
-
+   to the head of ```index.html```.  And also link ```sketch.js``` to ```index.html```
+* ```index.html``` should look like this
 ```
 <!DOCTYPE html>
 <html lang="en">
