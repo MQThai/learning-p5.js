@@ -31,7 +31,8 @@
 ## Make a circle
 Let's see if everything is linked up correctly.  We'll have a circle appear.  In ```sketch.js```, add the following:
 
-```function setup () {
+```
+function setup () {
 
 }
 
