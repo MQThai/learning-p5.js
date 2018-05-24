@@ -68,7 +68,10 @@ function draw () {
 ```
 
 You'll see something like this
+
 <img src="images/canvas.png" alt="canvas with circles" width="250" height="250">
+
+
 
 ## Resources
 * https://p5js.org/
