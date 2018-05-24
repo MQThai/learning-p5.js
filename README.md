@@ -2,7 +2,11 @@
 
 ## Getting Started
 * In a folder, make an ```index.html``` and a ```sketch.js``` file
-* In ```index.html``` set up your html and link your ```sketch.js``` file in the head of your ```index.html```, should look like this
+* You have two choices on how to link p5.js to your ```index.html```
+   1. Download the p5.js library and link it in your folder with ```<script src="../p5.min.js"></script>``` in the head of ```index.html```
+   2. Link to a p5.js file hosted online with ```<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>```
+* If you chose to link to a p5.js file hosted online like I did for this, ```index.html``` should look like this.  Don't forget to link ```sketch.js``` in the head also.
+
 ```
 <!DOCTYPE html>
 <html lang="en">
@@ -23,3 +27,6 @@
 ## Resources
 * https://p5js.org/
 * https://p5js.org/get-started/
+* https://p5js.org/download/ (for downloading the p5.js library)
+* https://cdnjs.com/libraries/p5.js (for linking to a p5.js file hosted online)
+* https://p5js.org/reference/
