@@ -44,9 +44,26 @@ The setup() function is called once when the program starts. It's used to define
 
 The draw() function means "draw an ellipse, with the center 50 pixels over from the left and 50 pixels down from the top, with a width and height of 80 pixels".
 
-Open ```index.html``` in your browser and you should see a circle.
+Open ```index.html``` in your browser and if you see a circle, you're doing great.
 
 <img src="images/circle.png" alt="circle in browser" width="250" height="250">
+
+## Make a canvas
+Let's try making a canvas and draw circles wherever the mouse goes on the canvas.  Change the code in ```sketch.js``` to this:
+```
+function setup () {
+  createCanvas(640, 480)
+}
+
+function draw () {
+  if (mouseIsPressed) {
+    fill(0)
+  } else {
+    fill(255)
+  }
+  ellipse(mouseX, mouseY, 80, 80)
+}
+```
 
 ## Resources
 * https://p5js.org/
