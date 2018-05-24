@@ -67,6 +67,10 @@ function draw () {
 }
 ```
 
+In the setup() function, createCanvas() will make a window that is 640 pixels wide and 480 pixels high.
+
+In the draw() function, circles will be drawn at the position of the cursor with a width and height of 80 pixels.  If the cursor is pressed and held while moving inside the canvas, a black circle will be drawn.  Otherwise, a white circle will be drawn.
+
 You'll see something like this
 
 <img src="images/canvas.png" alt="canvas with circles" width="250" height="250">
