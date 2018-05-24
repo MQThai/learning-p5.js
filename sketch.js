@@ -11,7 +11,6 @@ function draw () {
   }
   rotate(frameCount * 0.01)
   rotateY(frameCount * 0.5)
-  // rotateZ(frameCount * 0.3)
   ellipse(0, y, 20, 20)
   noStroke()
 }

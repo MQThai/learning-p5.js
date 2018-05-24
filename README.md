@@ -75,6 +75,30 @@ You'll see something like this
 
 <img src="images/canvas.png" alt="canvas with circles" width="250" height="250">
 
+## Make a star mandala
+We'll try another thing.  We'll draw a star mandala.  In ```sketch.js```, change the code to:
+
+```
+var y = 0
+function setup () {
+  createCanvas(800, 600, WEBGL)
+  background(0)
+}
+
+function draw () {
+  y = y - 20
+  if (y < 0) {
+    y = height
+  }
+  rotate(frameCount * 0.01)
+  rotateY(frameCount * 0.5)
+  ellipse(0, y, 20, 20)
+  noStroke()
+}
+```
+
+What we are doing now is drawing a line of circles starting at the borders of the canvas until the line reaches the center.  While the line is being drawn, we change the x-coordinate and y-coordinate of the subsequent circles depending on the previous circle's coordinates.  And the draw() function is in a loop.
+
 ## Resources
 * https://p5js.org/
 * https://p5js.org/get-started/
