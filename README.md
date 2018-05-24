@@ -75,11 +75,10 @@ You'll see something like this
 
 <img src="images/canvas.png" alt="canvas with circles" width="250" height="250">
 
-
-
 ## Resources
 * https://p5js.org/
 * https://p5js.org/get-started/
 * https://p5js.org/download/ (for downloading the p5.js library)
 * https://cdnjs.com/libraries/p5.js (for linking to a p5.js file hosted online)
 * https://p5js.org/reference/
+* https://p5js.org/examples/

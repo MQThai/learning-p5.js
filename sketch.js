@@ -1,12 +1,17 @@
+var y = 0
 function setup () {
-  createCanvas(640, 480)
+  createCanvas(800, 600, WEBGL)
+  background(0)
 }
 
 function draw () {
-  if (mouseIsPressed) {
-    fill(0)
-  } else {
-    fill(255)
+  y = y - 20
+  if (y < 0) {
+    y = height
   }
-  ellipse(mouseX, mouseY, 80, 80)
+  rotate(frameCount * 0.01)
+  rotateY(frameCount * 0.5)
+  // rotateZ(frameCount * 0.3)
+  ellipse(0, y, 20, 20)
+  noStroke()
 }
