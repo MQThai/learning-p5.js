@@ -42,6 +42,7 @@ function draw () {
 ```
 
 Open ```index.html``` in your browser and you should see a circle.
+(images/circle.png)
 
 ## Resources
 * https://p5js.org/
