@@ -40,8 +40,9 @@ function draw () {
   ellipse(50, 50, 80, 80)
 }
 ```
+The setup() function is called once when the program starts. It's used to define initial environment properties such as screen size and background color and to load media such as images and fonts as the program starts. There can only be one setup() function for each program and it shouldn't be called again after its initial execution. 
 
-This code block means "draw an ellipse, with the center 50 pixels over from the left and 50 pixels down from the top, with a width and height of 80 pixels".
+The draw() function means "draw an ellipse, with the center 50 pixels over from the left and 50 pixels down from the top, with a width and height of 80 pixels".
 
 Open ```index.html``` in your browser and you should see a circle.
 
