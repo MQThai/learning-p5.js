@@ -6,8 +6,10 @@
    1. Download the p5.js library and link it in your folder
    2. Link to a p5.js file hosted online
 * If you chose to link to a p5.js file hosted online like I did for this, add
-   ```<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>```   
-to the head of ```index.html```.  Don't forget to link ```sketch.js``` in the head also.
+
+   ```<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>```
+
+   to the head of ```index.html```.  Don't forget to link ```sketch.js``` in the head also.
 
 ```
 <!DOCTYPE html>
