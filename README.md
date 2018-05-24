@@ -41,6 +41,8 @@ function draw () {
 }
 ```
 
+Open ```index.html``` in your browser and you should see a circle.
+
 ## Resources
 * https://p5js.org/
 * https://p5js.org/get-started/
