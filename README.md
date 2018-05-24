@@ -41,6 +41,8 @@ function draw () {
 }
 ```
 
+This code block means "draw an ellipse, with the center 50 pixels over from the left and 50 pixels down from the top, with a width and height of 80 pixels".
+
 Open ```index.html``` in your browser and you should see a circle.
 
 <img src="images/circle.png" alt="circle in browser" width="250" height="250">
