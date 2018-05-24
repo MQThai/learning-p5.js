@@ -31,6 +31,14 @@
 ## Make a circle
 Let's see if everything is linked up correctly.  We'll have a circle appear.  In ```sketch.js```, add the following:
 
+```function setup () {
+
+}
+
+function draw () {
+  ellipse(50, 50, 80, 80)
+}```
+
 ## Resources
 * https://p5js.org/
 * https://p5js.org/get-started/
