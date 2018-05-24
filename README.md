@@ -2,10 +2,10 @@
 
 ## Getting Started
 * In a folder, make an ```index.html``` and a ```sketch.js``` file
-* You have two choices on how to link p5.js to your ```index.html```
-   1. Download the p5.js library and link it in your folder with ```<script src="../p5.min.js"></script>``` in the head of ```index.html```
-   2. Link to a p5.js file hosted online with ```<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>```
-* If you chose to link to a p5.js file hosted online like I did for this, ```index.html``` should look like this.  Don't forget to link ```sketch.js``` in the head also.
+* You have two ways to link the p5.js library to ```index.html```:
+   1. Download the p5.js library and link it in your folder
+   2. Link to a p5.js file hosted online
+* If you chose to link to a p5.js file hosted online like I did for this, add ```<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>``` to the head of ```index.html```.  Don't forget to link ```sketch.js``` in the head also.
 
 ```
 <!DOCTYPE html>
@@ -23,6 +23,9 @@
 </body>
 </html>
 ```
+
+## Make a circle
+Let's see if everything is linked up correctly.  We'll have a circle appear.  In ```sketch.js```, add the following:
 
 ## Resources
 * https://p5js.org/
