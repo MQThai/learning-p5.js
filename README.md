@@ -42,6 +42,7 @@ function draw () {
 ```
 
 Open ```index.html``` in your browser and you should see a circle.
+
 <img src="images/circle.png" alt="circle in browser" width="250" height="250">
 
 ## Resources
