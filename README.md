@@ -1,5 +1,8 @@
 # learning-p5.js
 
+## What is p5.js
+p5.js is a JavaScript library to help make graphic and interactive experiences easy and simple.
+
 ## Getting Started
 * In a folder, make an ```index.html``` and a ```sketch.js``` file
 * You have two ways to link the p5.js library to ```index.html```:
