@@ -104,7 +104,8 @@ What we are doing now is drawing a line of circles starting at the borders of th
 
 In the setup() function, the width and height of the canvas is set with a third parameter of WEBGL.  WEBGL is one of two render modes in p5.js, P2D is the default renderer.  With WEBGL set, we can interact with the z-coordinate along with x-coordinate and y-coordinate.  We can draw in both 2D and 3D.
 
-In the draw() function, 
+In the draw() function, the function is in a loop.
+
 <img src="images/star mandala.png" alt="star mandala" width="250" height="250">
 
 ## Resources
