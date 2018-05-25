@@ -1,6 +1,6 @@
 # learning-p5.js
 
-## What is p5.js
+## What Is p5.js
 p5.js is a JavaScript library to help make graphic and interactive experiences easy and simple.
 
 ## Getting Started
@@ -31,7 +31,7 @@ p5.js is a JavaScript library to help make graphic and interactive experiences e
 </html>
 ```
 
-## Make a circle
+## Make A Circle
 Let's see if everything is linked up correctly.  We'll have a circle appear.  In ```sketch.js```, add the following:
 
 ```
@@ -52,7 +52,7 @@ Open ```index.html``` in your browser and if you see a circle, you're doing grea
 
 <img src="images/circle.png" alt="circle in browser" width="250" height="250">
 
-## Make a canvas
+## Make A Canvas
 Let's try making a canvas and draw circles wherever the mouse goes on the canvas.  Change the code in ```sketch.js``` to this:
 
 ```
@@ -78,7 +78,7 @@ You'll see something like this
 
 <img src="images/canvas.png" alt="canvas with circles" width="250" height="250">
 
-## Make a star mandala
+## Make A Star Mandala
 We'll try another thing.  We'll draw a star mandala.  In ```sketch.js```, change the code to:
 
 ```
